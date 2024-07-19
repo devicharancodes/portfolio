@@ -3,6 +3,7 @@ import { DiJavascript1 } from "react-icons/di";
 import { DiNodejs } from "react-icons/di";
 import { DiMongodb } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
+import { RiNextjsFill } from "react-icons/ri";
 import {  motion } from "framer-motion";
 
 const iconVariants = (duration)=>({
@@ -39,6 +40,13 @@ const Technologies = () => {
             <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div 
+        variants={iconVariants(1.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <RiNextjsFill className="text-7xl bg-black-500 text-white" />
+        </motion.div>
+        <motion.div 
         variants={iconVariants(2)}
         initial="initial"
         animate="animate"
@@ -46,14 +54,14 @@ const Technologies = () => {
             <DiJavascript1 className="text-7xl bg-yellow-500 text-black" />
         </motion.div>
         <motion.div 
-        variants={iconVariants(3)}
+        variants={iconVariants(1)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <DiNodejs className="text-7xl text-green-400" />
         </motion.div>
         <motion.div 
-        variants={iconVariants(1)}
+        variants={iconVariants(3)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
