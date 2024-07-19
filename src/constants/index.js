@@ -3,39 +3,50 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate Web developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an experienced Front End Developer with a strong background in UI/UX design and 
+a passion for front-end technology. Skilled in JavaScript, HTML5, CSS3 and React. 
+Proven track record of developing responsive user interfaces, optimizing code for 
+faster page loads, and integrating RESTful APIs to enhance user experience. 
+Collaborative team player adept at creating and converting UI/UX wireframes 
+into code while maintaining design standards. Eager to advance expertise in 
+contemporary front-end technologies like React.js and remain informed on 
+industry advancements. Enthusiastic about prospects in UI/UX Design and Web development.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    role: "Front End Web Developer",
+    company: " ANZ ",
+    description: ` Developed an internal portal for bank employees to manage customer loyalty program 
+benefits, including interest rate discounts on loans and credit products. The 
+portal allowed employees to input customer data and calculate applicable 
+discounts based on factors such as account balances, transaction history, and 
+credit scores.`,
+    technologies: [ "React","Redux" , "React Router", "Sass", "Axios", "Formik", "Yup", "React Hooks", "ESLint", "Webpack", "Git" ],
+  },
+  {
+    year: "2020 - 2022",
+    role: "Front End Web Developer",
+    company: "Benchmark Managed IT Cloud Services",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["HTML", "CSS", "React","Redux" , "React Router", "Tailwind", "Axios","Material-UI","Jest"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2019 - 2020",
+    role: "UI/UX Developer | Junior Front End Developer",
+    company: " Aussie Digital Business Systems",
+    description: `Assisted in the development and maintenance of an RFID Enabled Asset Tracking System using React JS, Express JS, Node.js and Mongo DB.`,
+    technologies: ["Python", "JSX", "Node.js", "Postgres", "jQuery"," React","ExpressJS"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -70,7 +81,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "355 Blackshaws rd, Altona north , 3025 ",
+  phoneNo: "+61 410648828 ",
+  email: "devicharand@gmail.com",
 };

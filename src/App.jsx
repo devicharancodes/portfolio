@@ -1,5 +1,8 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
+import Technologies from "./components/Technologies"
 import Navbar from "./components/navbar"
 
 
@@ -15,8 +18,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Technologies />
+      <Experience />
+      <Contact />
       </div>
     </div>
+
   )
 }
 
